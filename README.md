@@ -20,6 +20,7 @@
 项目使用spring boot，spring mvc,spring data进行技术选型，数据库采用mysql，按如下配置方式运行
 - 创建数据库，数据库名为:db_book,项目采用正向工程，完成映射后会根据mapping映射自动创建表结构
 - 在项目配置文件application.properties文件中，数据源选项url,user,password修改成自己的即可
+- 运行项目：配置好gradle后可以直接gradle run启动运行项目，也可以运行启动类完成项目的启动
 - 可以采用postman（见附件)对RESTful接口进行测试
 - 也可以在项目基础上集成swagger2来生成文档及测试，详细参考我的两篇博客
 
